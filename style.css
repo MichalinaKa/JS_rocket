@@ -27,12 +27,12 @@
     height: 20px;
 }
 
-.rocket {
-    background-image: url("/rocket.png");
-    z-index: -1;
-    background-repeat: no-repeat;
+.rocket img {
+    /* background-image: url("/rocket.png"); */
+    /* z-index: -1; */
+    /* background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     position: absolute;
     left: 50%;
     bottom: -15px;
