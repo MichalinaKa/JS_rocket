@@ -28,7 +28,7 @@
 }
 
 .rocket {
-    background-image: url("/rocket.svg");
+    background-image: url("/rocket.png");
     z-index: -1;
     background-repeat: no-repeat;
     background-position: center;
