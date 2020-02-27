@@ -27,17 +27,36 @@
     height: 20px;
 }
 
-.rocket img {
+.rocket {
+    background-image: url("rocket.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
     position: absolute;
     left: 50%;
-    bottom: -15px;
+    bottom: -40px;
     height: 200px;
     width: 150px;
     transition: bottom 10000ms;
+    z-index: -1;
 }
 
 body.body-state1 .rocket {
     transition: none;
+}
+
+body.body-state2 .rocket {
+    background-image: url("rocket.gif");
+}
+
+body.body-state4 .rocket {
+    background-image: url("rocket.gif");
+}
+
+body.body-state5 .rocket {
+    background-image: url("Boom.svg");
+    width: 300px;
+    height: 300px;
+    left: 30%;
 }
 
 body.body-state3 .rocket,
