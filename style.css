@@ -28,11 +28,6 @@
 }
 
 .rocket img {
-    /* background-image: url("/rocket.png"); */
-    /* z-index: -1; */
-    /* background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; */
     position: absolute;
     left: 50%;
     bottom: -15px;
